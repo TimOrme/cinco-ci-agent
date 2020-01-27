@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cinco-ci-agent"
+version = "0.1.0"
+description = "Agent for CincoCI"
+authors = ["Eric Renteria <eric.renteria.88@gmail.com>", "Tim Orme <torme@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.47.1"
+uvicorn = "^0.11.2"
+gitpython = "^3.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
